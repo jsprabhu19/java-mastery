@@ -32,6 +32,7 @@ import java.util.concurrent.CompletableFuture;
         "Forgetting to supply custom thread pools for blocking I/O operations inside supplyAsync(), which blocks the common pool threads."
     }
 )
+@SuppressWarnings("all")
 public class CompletableFutureBasics {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("CompletableFuture Async Pipelines");

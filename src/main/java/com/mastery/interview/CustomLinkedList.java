@@ -30,6 +30,7 @@ import com.mastery.utils.ConsoleFormatter;
         "NullPointerExceptions in cycle detection due to not checking fast.next or fast.next.next before moving pointers."
     }
 )
+@SuppressWarnings("all")
 public class CustomLinkedList {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Interview: LinkedList Reversal & Cycles");

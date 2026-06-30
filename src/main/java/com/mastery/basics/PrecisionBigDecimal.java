@@ -34,6 +34,7 @@ import java.math.RoundingMode;
         "Forgetting that BigDecimal is immutable: bigDecimal.add(value) does not alter the original object. Must assign it back: x = x.add(y)."
     }
 )
+@SuppressWarnings("all")
 public class PrecisionBigDecimal {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Precision Arithmetic with BigDecimal");

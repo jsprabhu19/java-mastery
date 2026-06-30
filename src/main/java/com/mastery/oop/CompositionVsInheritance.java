@@ -34,6 +34,7 @@ import java.util.List;
         "Experiencing tight coupling where updating a superclass method signature breaks multiple subclasses."
     }
 )
+@SuppressWarnings("all")
 public class CompositionVsInheritance {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Composition vs Inheritance");

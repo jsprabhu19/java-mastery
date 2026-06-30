@@ -32,6 +32,7 @@ import java.io.*;
         "Swallowing close() exceptions in finally blocks or omitting try-with-resources, leaking stream OS descriptors."
     }
 )
+@SuppressWarnings("all")
 public class IoStreams {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Java I/O Streams & Serialization");

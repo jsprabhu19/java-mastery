@@ -31,6 +31,7 @@ import java.sql.SQLException;
         "Losing exception context: catch (SQLException e) { throw new ServiceException(\"Failed\"); } (Missing cause parameter)."
     }
 )
+@SuppressWarnings("all")
 public class ExceptionChaining {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Exception Chaining");

@@ -30,6 +30,7 @@ import com.mastery.utils.ConsoleFormatter;
         "Declaring a sealed class with permitted subclasses residing in different packages (permitted classes must reside in the same package or module)."
     }
 )
+@SuppressWarnings("all")
 public class RecordsAndSealed {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Records & Sealed Classes");

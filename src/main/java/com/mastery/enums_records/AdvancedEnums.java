@@ -29,6 +29,7 @@ import com.mastery.utils.ConsoleFormatter;
         "Declaring mutable instance variables inside Enums. Enums are shared singletons globally; changing state in one thread alters it for all threads, causing race conditions."
     }
 )
+@SuppressWarnings("all")
 public class AdvancedEnums {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Advanced Enums");

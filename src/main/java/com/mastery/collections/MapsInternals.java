@@ -34,6 +34,7 @@ import java.util.Map;
         "Mutable keys: modifying a field used in hashCode() after placing the key in the map hides it from index searches."
     }
 )
+@SuppressWarnings("all")
 public class MapsInternals {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("HashMap Internals & Treeification");

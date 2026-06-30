@@ -35,6 +35,7 @@ import java.util.WeakHashMap;
         "Expecting IdentityHashMap to match key values across serializations or standard lookups."
     }
 )
+@SuppressWarnings("all")
 public class SpecializedMaps {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Specialized Maps");

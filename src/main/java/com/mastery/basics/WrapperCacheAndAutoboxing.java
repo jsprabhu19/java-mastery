@@ -30,6 +30,7 @@ import com.mastery.utils.ConsoleFormatter;
         "NullPointerException during unboxing when assigning a null wrapper variable to a primitive variable."
     }
 )
+@SuppressWarnings("all")
 public class WrapperCacheAndAutoboxing {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Wrapper Classes & Autoboxing Cache");

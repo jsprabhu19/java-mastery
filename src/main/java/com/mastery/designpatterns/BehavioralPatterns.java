@@ -33,6 +33,7 @@ import java.util.List;
         "Overcomplicating designs with Strategy when basic conditional branches are sufficient and rarely change."
     }
 )
+@SuppressWarnings("all")
 public class BehavioralPatterns {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Behavioral Patterns (Strategy & Observer)");

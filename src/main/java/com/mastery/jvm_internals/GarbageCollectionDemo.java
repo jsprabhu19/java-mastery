@@ -32,6 +32,7 @@ import java.lang.ref.Cleaner;
         "Creating cyclic references that cannot be collected? (No, GC uses reachability algorithms, so cyclic references with no root access are collected easily)."
     }
 )
+@SuppressWarnings("all")
 public class GarbageCollectionDemo {
 
     // Modern replacement for finalize()

@@ -1,5 +1,6 @@
 package com.mastery.utils;
 
+@SuppressWarnings("all")
 public class ConsoleFormatter {
     private static final String RESET = "\u001B[0m";
     private static final String CYAN = "\u001B[36m";

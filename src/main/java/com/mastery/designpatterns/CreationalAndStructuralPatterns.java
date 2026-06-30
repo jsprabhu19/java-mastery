@@ -31,6 +31,7 @@ import com.mastery.utils.ConsoleFormatter;
         "Adding Factory patterns for simple objects that rarely change, introducing unnecessary complexity."
     }
 )
+@SuppressWarnings("all")
 public class CreationalAndStructuralPatterns {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Creational & Structural Patterns");

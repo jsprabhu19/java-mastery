@@ -37,6 +37,7 @@ import java.sql.Statement;
         "Leaking connections by not closing them inside try-with-resources, leaving them checked out indefinitely and locking the pool (pool starvation)."
     }
 )
+@SuppressWarnings("all")
 public class JdbcConnectionPool {
 
     private static final String H2_URL = "jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1";

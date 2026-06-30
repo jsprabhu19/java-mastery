@@ -36,6 +36,7 @@ import java.util.stream.Stream;
         "Performing stateful, non-associative calculations in reduce(), producing wrong results during parallel runs."
     }
 )
+@SuppressWarnings("all")
 public class StreamsAdvanced {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Advanced Streams (grouping/reduction/custom)");

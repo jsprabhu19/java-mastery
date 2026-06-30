@@ -32,6 +32,7 @@ import java.time.format.DateTimeFormatter;
         "Assuming LocalDateTime represents a unique physical point in time. Without a ZoneId, it is a conceptual date-time (e.g., Midnight New Years occurs at different physical times globally)."
     }
 )
+@SuppressWarnings("all")
 public class ModernDateTime {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Modern Java Time API");

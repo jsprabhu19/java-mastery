@@ -31,6 +31,7 @@ import com.mastery.utils.ConsoleFormatter;
         "Defining state inside abstract classes that should belong to subclass implementations."
     }
 )
+@SuppressWarnings("all")
 public class AbstractionSmartHome {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Abstraction (Smart Home Devices)");

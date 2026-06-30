@@ -35,6 +35,7 @@ import java.util.concurrent.*;
         "Using CopyOnWriteArrayList for high-frequency write environments, leading to excessive garbage collection and array-copy CPU overhead."
     }
 )
+@SuppressWarnings("all")
 public class ConcurrentCollectionsInternals {
     public static void main(String[] args) throws InterruptedException {
         ConsoleFormatter.printHeader("Concurrent Collections Internals");

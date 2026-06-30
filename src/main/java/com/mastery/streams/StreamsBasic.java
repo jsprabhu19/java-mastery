@@ -34,6 +34,7 @@ import java.util.stream.Collectors;
         "Attempting to reuse a stream reference after a terminal execution has finished."
     }
 )
+@SuppressWarnings("all")
 public class StreamsBasic {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Streams Basics & Lazy Evaluation");

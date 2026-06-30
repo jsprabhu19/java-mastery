@@ -33,6 +33,7 @@ import java.lang.reflect.Proxy;
         "Dynamic proxy calls only trigger when invoked from outside the class. Self-invocation (calling another method inside the same class) bypasses the proxy, disabling aspects like @Transactional."
     }
 )
+@SuppressWarnings("all")
 public class DynamicProxyDemo {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Dynamic Proxies & AOP");

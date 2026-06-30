@@ -34,6 +34,7 @@ import java.util.List;
         "Runtime ClassCastException when reading objects from a list that has been corrupted by reflection or raw type operations."
     }
 )
+@SuppressWarnings("all")
 public class TypeErasure {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Type Erasure & Runtime Bypasses");

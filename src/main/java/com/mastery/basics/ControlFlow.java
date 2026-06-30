@@ -31,6 +31,7 @@ import com.mastery.utils.ConsoleFormatter;
         "Non-exhaustive switch expressions. If all enum cases or types are not covered, a compile-time error occurs unless a 'default' case is supplied."
     }
 )
+@SuppressWarnings("all")
 public class ControlFlow {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Modern Control Flow & Switch Expressions");

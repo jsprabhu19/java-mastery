@@ -35,6 +35,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
         "Writing write-heavy operations under ReadWriteLock, causing reader thread starvation."
     }
 )
+@SuppressWarnings("all")
 public class SynchronizationAndLocks {
     
     private static int sharedCounter = 0;

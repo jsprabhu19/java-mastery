@@ -30,6 +30,7 @@ import com.mastery.utils.ConsoleFormatter;
         "Overusing volatile where basic thread confinement or locks are already protecting access."
     }
 )
+@SuppressWarnings("all")
 public class MemoryVisibilityVolatile {
     
     // Flag WITHOUT volatile - subject to caching

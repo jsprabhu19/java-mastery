@@ -36,6 +36,7 @@ import java.util.stream.Stream;
         "Forgetting to close resources returned by Files.lines() or Files.walk(). These classes hold active file descriptors and must be closed using try-with-resources."
     }
 )
+@SuppressWarnings("all")
 public class NioFiles {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Java NIO.2 File Systems");

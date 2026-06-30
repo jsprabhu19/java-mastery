@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("all")
 public class GenericsTest {
 
     @Test

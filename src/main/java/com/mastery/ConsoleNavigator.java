@@ -12,6 +12,7 @@ import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 
+@SuppressWarnings("all")
 public class ConsoleNavigator {
 
     private static final List<Class<?>> concepts = new ArrayList<>();

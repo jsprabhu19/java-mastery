@@ -31,6 +31,7 @@ import java.util.function.Function;
         "Highly complex nested generic types that decrease code readability if nested too deep."
     }
 )
+@SuppressWarnings("all")
 public class CurryingFunctions {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Function Currying");

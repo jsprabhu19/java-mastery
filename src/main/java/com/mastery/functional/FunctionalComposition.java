@@ -32,6 +32,7 @@ import java.util.function.Predicate;
         "Mixing up evaluation order in complex compose() chains, causing Type mismatch compile errors or runtime math bugs."
     }
 )
+@SuppressWarnings("all")
 public class FunctionalComposition {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Functional Composition");

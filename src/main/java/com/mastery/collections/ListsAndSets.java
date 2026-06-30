@@ -32,6 +32,7 @@ import java.util.*;
         "Adding objects that do not implement Comparable to a TreeSet, throwing a ClassCastException at runtime."
     }
 )
+@SuppressWarnings("all")
 public class ListsAndSets {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Lists & Sets Performance");

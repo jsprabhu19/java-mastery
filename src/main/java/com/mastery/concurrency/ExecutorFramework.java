@@ -32,6 +32,7 @@ import java.util.concurrent.*;
         "Using FixedThreadPool with unbounded queues for memory-intensive high-traffic applications, leading to OutOfMemoryError if workers cannot keep pace with insertions."
     }
 )
+@SuppressWarnings("all")
 public class ExecutorFramework {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Executor Service & Thread Pools");

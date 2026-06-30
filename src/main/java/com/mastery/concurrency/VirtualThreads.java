@@ -33,6 +33,7 @@ import java.util.concurrent.TimeUnit;
         "Pinning Carrier Threads: executing code inside 'synchronized' blocks or invoking native code blocks prevents virtual threads from unmounting, locking the carrier thread."
     }
 )
+@SuppressWarnings("all")
 public class VirtualThreads {
     public static void main(String[] args) throws InterruptedException {
         ConsoleFormatter.printHeader("Virtual Threads (Project Loom)");

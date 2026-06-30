@@ -34,6 +34,7 @@ import java.lang.reflect.Method;
         "Performance issues due to constant dynamic field/method lookups inside high-frequency loops."
     }
 )
+@SuppressWarnings("all")
 public class ReflectionDeepDive {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Reflection API Deep Dive");

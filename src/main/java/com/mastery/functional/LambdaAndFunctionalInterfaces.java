@@ -32,6 +32,7 @@ import java.util.function.*;
         "Overusing raw anonymous classes when clean lambdas or method references are available."
     }
 )
+@SuppressWarnings("all")
 public class LambdaAndFunctionalInterfaces {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Lambda Expressions & Functional Interfaces");

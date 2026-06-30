@@ -35,6 +35,7 @@ import java.util.stream.IntStream;
         "Attempting to sort infinite streams without pre-slicing using limit()."
     }
 )
+@SuppressWarnings("all")
 public class StreamsIntermediate {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Intermediate Streams (flatMap/sorting/primitives)");

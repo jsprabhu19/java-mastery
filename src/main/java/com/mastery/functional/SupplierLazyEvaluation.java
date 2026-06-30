@@ -31,6 +31,7 @@ import java.util.function.Supplier;
         "Calling supplier.get() multiple times inside a method, triggering the expensive computation repeatedly instead of caching the initial result."
     }
 )
+@SuppressWarnings("all")
 public class SupplierLazyEvaluation {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Supplier & Lazy Evaluation");

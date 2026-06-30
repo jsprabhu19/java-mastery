@@ -33,6 +33,7 @@ import java.lang.reflect.Constructor;
         "Implementing Cloneable on Singleton without overriding clone() to throw CloneNotSupportedException."
     }
 )
+@SuppressWarnings("all")
 public class SingletonPattern {
     public static void main(String[] args) throws Exception {
         ConsoleFormatter.printHeader("Singleton: Breaking & Defending");

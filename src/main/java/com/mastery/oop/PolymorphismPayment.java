@@ -30,6 +30,7 @@ import com.mastery.utils.ConsoleFormatter;
         "Declaring dynamic dispatch variables as concrete types rather than programming to interfaces."
     }
 )
+@SuppressWarnings("all")
 public class PolymorphismPayment {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Polymorphism (Payment Gateways)");

@@ -31,6 +31,7 @@ import com.mastery.utils.ConsoleFormatter;
         "Deep inheritance hierarchies that create high coupling (tight binding between super and sub classes)."
     }
 )
+@SuppressWarnings("all")
 public class EncapsulationAndInheritance {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Encapsulation & Inheritance (Banking)");

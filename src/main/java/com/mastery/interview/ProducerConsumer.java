@@ -33,6 +33,7 @@ import java.util.Queue;
         "Using notify() instead of notifyAll() in multi-thread systems, resulting in lost signals and thread hangs."
     }
 )
+@SuppressWarnings("all")
 public class ProducerConsumer {
     public static void main(String[] args) throws InterruptedException {
         ConsoleFormatter.printHeader("Interview: Producer-Consumer wait/notify");

@@ -32,6 +32,7 @@ import java.util.Optional;
         "Using Optional for class fields or method parameters (it is designed solely as a method return type wrapper to indicate possible absence)."
     }
 )
+@SuppressWarnings("all")
 public class OptionalBasics {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Optional API Best Practices");

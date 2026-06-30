@@ -32,6 +32,7 @@ import java.sql.*;
         "Forgetting to register database drivers in legacy configurations (modern JDBC uses ServiceLoader to auto-load drivers)."
     }
 )
+@SuppressWarnings("all")
 public class JdbcBasicsAndPrepared {
     
     private static final String H2_URL = "jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1";

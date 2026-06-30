@@ -32,6 +32,7 @@ import java.sql.*;
         "Omitting clean rollbacks in catch blocks, leaving database connections in unstable, locked transaction states."
     }
 )
+@SuppressWarnings("all")
 public class JdbcTransactionsAndBatching {
 
     private static final String H2_URL = "jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1";

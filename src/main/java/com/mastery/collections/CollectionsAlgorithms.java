@@ -32,6 +32,7 @@ import java.util.*;
         "Passing a backing list to a class constructor, wrapping it in Collections.unmodifiableList(), and mutating the backing list later, exposing variables to unexpected changes."
     }
 )
+@SuppressWarnings("all")
 public class CollectionsAlgorithms {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Collections Algorithms & Immutability");

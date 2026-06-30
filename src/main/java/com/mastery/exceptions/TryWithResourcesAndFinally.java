@@ -30,6 +30,7 @@ import com.mastery.utils.ConsoleFormatter;
         "Declaring non-AutoCloseable objects in try-with-resources headers."
     }
 )
+@SuppressWarnings("all")
 public class TryWithResourcesAndFinally {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Try-With-Resources & Finally");

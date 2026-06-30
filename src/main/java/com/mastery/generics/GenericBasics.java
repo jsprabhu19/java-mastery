@@ -29,6 +29,7 @@ import com.mastery.utils.ConsoleFormatter;
         "Using Raw Types (e.g. Box box = new Box()) instead of parameterized types, which completely bypasses compile-time safety protections."
     }
 )
+@SuppressWarnings("all")
 public class GenericBasics {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Generics Basics & Bounded Types");

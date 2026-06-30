@@ -11,6 +11,7 @@ import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 
+@SuppressWarnings("all")
 public class DocGenerator {
 
     private static final String START_MARKER = "<!-- TOPIC_INDEX_START -->";

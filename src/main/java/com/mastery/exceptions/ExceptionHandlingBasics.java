@@ -33,6 +33,7 @@ import java.io.IOException;
         "Catching generic Exception or Throwable everywhere, hiding critical system errors like OutOfMemoryError."
     }
 )
+@SuppressWarnings("all")
 public class ExceptionHandlingBasics {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Exception Handling Basics");

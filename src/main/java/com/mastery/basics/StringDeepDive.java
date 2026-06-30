@@ -33,6 +33,7 @@ import java.util.StringJoiner;
         "Comparing string values using '=='. Always use '.equals()'."
     }
 )
+@SuppressWarnings("all")
 public class StringDeepDive {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("String Immutability & Performance");

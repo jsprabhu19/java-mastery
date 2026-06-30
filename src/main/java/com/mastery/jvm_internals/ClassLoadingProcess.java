@@ -29,6 +29,7 @@ import com.mastery.utils.ConsoleFormatter;
         "Confusion between ClassNotFoundException (explicit Class.forName lookup failure) vs NoClassDefFoundError (class compiled fine but missing on classpath during runtime execution)."
     }
 )
+@SuppressWarnings("all")
 public class ClassLoadingProcess {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("JVM Class Loader Delegation");

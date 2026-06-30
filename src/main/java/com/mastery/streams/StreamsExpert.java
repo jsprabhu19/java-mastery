@@ -35,6 +35,7 @@ import java.util.concurrent.ForkJoinPool;
         "Executing blocking I/O calls directly inside the parallel commonPool(), locking concurrent execution threads system-wide."
     }
 )
+@SuppressWarnings("all")
 public class StreamsExpert {
     public static void main(String[] args) throws Exception {
         ConsoleFormatter.printHeader("Expert Streams (Parallel/Tuning/Thread-Pools)");

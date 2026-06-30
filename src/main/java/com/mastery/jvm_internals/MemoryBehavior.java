@@ -33,6 +33,7 @@ import java.util.List;
         "Retaining references to unused objects inside static collections, causing JVM heap memory leaks (OutOfMemoryError)."
     }
 )
+@SuppressWarnings("all")
 public class MemoryBehavior {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("JVM Memory Areas");

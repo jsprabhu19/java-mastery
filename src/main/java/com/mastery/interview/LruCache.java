@@ -34,6 +34,7 @@ import java.util.Map;
         "Missing null-checks at head or tail boundaries in custom linked list operations."
     }
 )
+@SuppressWarnings("all")
 public class LruCache {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Interview: LRU Cache Design");

@@ -32,6 +32,7 @@ import java.util.Arrays;
         "Forgetting to resize arrays manually or not utilizing ArrayList when dynamic resizing is necessary."
     }
 )
+@SuppressWarnings("all")
 public class ArrayBasicsAndCloning {
     public static void main(String[] args) {
         ConsoleFormatter.printHeader("Array Management & Cloning Semantics");
