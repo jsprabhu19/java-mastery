@@ -1,0 +1,19 @@
+# Maven build outputs
+target/
+*.class
+
+# Temporary demo files
+temp_io_demo.txt
+temp_nio_file.txt
+
+# Log files
+*.log
+
+# IDE files
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.factorypath
+bin/
