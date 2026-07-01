@@ -1,4 +1,4 @@
-# Antigravity Prompt: Java Mastery Reference Project
+# Java Mastery Reference Project
 
 A high-fidelity, interactive, and comprehensive codebase serving as a living reference and interview-prep resource covering the breadth of core Java—from absolute basics to advanced JVM internals and design patterns.
 
